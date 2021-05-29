@@ -6,12 +6,13 @@ import { graphql } from 'gatsby'
 
 export default function ProjectDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, stack, featuredImg } = data.markdownRemark.frontmatter
+    const { title, stack, featuredImg, site } = data.markdownRemark.frontmatter
     return (
         <Layout>
             <div className={styles.details}>
                 <h2>{ title }</h2>
                 <h3>{ stack }</h3>
+                <a className={styles.btn} href={ site }>사이트 바로가기</a>
                 <div className={styles.featured}>
                     <Img fluid={ featuredImg.childImageSharp.fluid } />
                 </div>
@@ -28,6 +29,7 @@ export const query = graphql`
             frontmatter {
                 stack
                 title
+                site
                 featuredImg {
                     childImageSharp {
                         fluid {

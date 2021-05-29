@@ -1,8 +1,8 @@
 ---
-title: The Dojo Coffee House
-stack: HTML & CSS
-slug: the-dojo-coffee-house
-date: 2021-01-01T00:00:00+00:00
+title: 지도로 보는 웹-닌자들
+stack: Vue2 & Google Map
+slug: the-geo-ninjas
+date: 2019-09-10T00:00:00+00:00
 thumb: ../images/thumbs/coffee.png
 featuredImg: ../images/featured/coffee-banner.png
 ---

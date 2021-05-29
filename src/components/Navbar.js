@@ -18,9 +18,9 @@ export default function Navbar() {
         <nav>
             <h1>{ title }</h1>
             <div className="links">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/projects">Portfolio projects</Link>
+                <Link to="/">홈</Link>
+                <Link to="/about">사이트정보</Link>
+                <Link to="/projects">포트폴리오 프로젝트</Link>
             </div>
         </nav>
     )

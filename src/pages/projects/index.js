@@ -12,8 +12,8 @@ export default function Projects({ data }) {
     return (
         <Layout>
             <div className={styles.portfolio}>
-                <h2>Portfolio</h2>
-                <h3>Projects & Websites I've created</h3>
+                <h2>포트폴리오</h2>
+                <h3>내가 만든 프로젝트 & 웹싸이트</h3>
                 <div className={styles.projects}>
                     {projects.map(project => (
                         <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>

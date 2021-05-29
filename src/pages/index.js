@@ -11,10 +11,10 @@ export default function Home({ data }) {
     <Layout>
       <section className={styles.header}>
         <div>
-          <h2>Design!!!!</h2>
-          <h3>Develop & Deploy</h3>
-          <p>UX designer & web developer based in Manchester.</p>
-          <Link className={styles.btn} to="/projects">My Portfolio Projects</Link>  
+          <h2>디자인!!!!</h2>
+          <h3>개발 & 배포</h3>
+          <p>분당에 거주하는 UX 디자이너 & 웹개발자</p>
+          <Link className={styles.btn} to="/projects">나의 포트폴리오 프로젝트</Link>  
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
