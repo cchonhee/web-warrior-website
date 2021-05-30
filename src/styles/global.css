@@ -48,3 +48,10 @@ footer p{
   color: #bbb;
   margin: 40px auto;
 }
+ul {
+  margin-top: 40px;
+}
+
+li {
+  margin: 10px 10px;
+}
